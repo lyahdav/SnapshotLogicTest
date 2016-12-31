@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		63270A0D5F0DF303B225D827 /* libPods-SnapshotLogicTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F361EF8F6A47AA7341558F60 /* libPods-SnapshotLogicTestTests.a */; };
+		C63741511E17448E0092BFA5 /* SomeCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C63741501E17448E0092BFA5 /* SomeCustomView.m */; };
+		C63741521E1744F60092BFA5 /* SomeCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C63741501E17448E0092BFA5 /* SomeCustomView.m */; };
 		C68636CE1E17072C00A9EE1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C68636CD1E17072C00A9EE1E /* main.m */; };
 		C68636D11E17072C00A9EE1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C68636D01E17072C00A9EE1E /* AppDelegate.m */; };
 		C68636D41E17072C00A9EE1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68636D31E17072C00A9EE1E /* ViewController.m */; };
@@ -24,6 +26,8 @@
 		8DF1CCD970063A373187AFE1 /* Pods-SnapshotLogicTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotLogicTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapshotLogicTestTests/Pods-SnapshotLogicTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C441D60FC61E209C7E61204 /* libPods-SnapshotLogicTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SnapshotLogicTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFE586A38DD80BD49EAFEF2 /* Pods-SnapshotLogicTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotLogicTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapshotLogicTestTests/Pods-SnapshotLogicTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C637414F1E17448E0092BFA5 /* SomeCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeCustomView.h; sourceTree = "<group>"; };
+		C63741501E17448E0092BFA5 /* SomeCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeCustomView.m; sourceTree = "<group>"; };
 		C68636C91E17072C00A9EE1E /* SnapshotLogicTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapshotLogicTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68636CD1E17072C00A9EE1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C68636CF1E17072C00A9EE1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +96,8 @@
 				C68636DA1E17072C00A9EE1E /* LaunchScreen.storyboard */,
 				C68636DD1E17072C00A9EE1E /* Info.plist */,
 				C68636CC1E17072C00A9EE1E /* Supporting Files */,
+				C637414F1E17448E0092BFA5 /* SomeCustomView.h */,
+				C63741501E17448E0092BFA5 /* SomeCustomView.m */,
 			);
 			path = SnapshotLogicTest;
 			sourceTree = "<group>";
@@ -333,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68636D41E17072C00A9EE1E /* ViewController.m in Sources */,
+				C63741511E17448E0092BFA5 /* SomeCustomView.m in Sources */,
 				C68636D11E17072C00A9EE1E /* AppDelegate.m in Sources */,
 				C68636CE1E17072C00A9EE1E /* main.m in Sources */,
 			);
@@ -343,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68636E71E17072C00A9EE1E /* SnapshotLogicTestTests.m in Sources */,
+				C63741521E1744F60092BFA5 /* SomeCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

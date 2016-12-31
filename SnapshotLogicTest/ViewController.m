@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SomeCustomView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIView *view = [[SomeCustomView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
+    [self.view addSubview:view];
 }
 
 

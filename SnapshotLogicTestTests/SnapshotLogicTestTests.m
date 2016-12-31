@@ -1,5 +1,6 @@
 #import <XCTest/XCTest.h>
 #import "FBSnapshotTestCase.h"
+#import "SomeCustomView.h"
 
 @interface SnapshotLogicTestTests : FBSnapshotTestCase
 
@@ -14,8 +15,7 @@
 
 - (void)testExample {
     [UIFont systemFontOfSize:12];
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 10)];
-    view.backgroundColor = [UIColor redColor];
+    SomeCustomView *view = [[SomeCustomView alloc] initWithFrame:CGRectMake(0, 0, 100, 10)];
     FBSnapshotVerifyView(view, nil);
 }
 
